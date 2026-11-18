@@ -1,0 +1,92 @@
+{
+  "name": "ai-assistant-kit",
+  "version": "1.0.0",
+  "description": "Self-contained, embeddable multi-tenant AI assistant kit with 3D avatar guide, role scoping, provider fallback, and payment gating",
+  "dependencies": {
+    "@google/genai": {
+      "version": "^3.3.0",
+      "purpose": "Google Gemini official AI SDK for text, vision, and tool calling",
+      "licence": "Apache-2.0"
+    },
+    "openai": {
+      "version": "^7.57.0",
+      "purpose": "Universal client for OpenRouter, Groq, and OpenAI-compatible providers",
+      "licence": "Apache-2.0"
+    },
+    "express": {
+      "version": "^4.22.3",
+      "purpose": "Server-side HTTP router and SSE streaming middleware",
+      "licence": "MIT"
+    },
+    "razorpay": {
+      "version": "^2.9.8",
+      "purpose": "Official Razorpay SDK for server-side order generation and HMAC signature verification",
+      "licence": "MIT"
+    },
+    "three": {
+      "version": "^0.187.0",
+      "purpose": "3D rendering engine for animated assistant avatar and guide mode pointer",
+      "licence": "MIT"
+    },
+    "xlsx": {
+      "version": "^0.18.5",
+      "purpose": "SheetJS open-source engine for parsing and exporting Excel spreadsheets",
+      "licence": "Apache-2.0"
+    },
+    "papaparse": {
+      "version": "^5.7.1",
+      "purpose": "Fast in-browser and server CSV parser with streaming support",
+      "licence": "MIT"
+    },
+    "jspdf": {
+      "version": "^4.2.1",
+      "purpose": "Client and server-side PDF document generation with custom Unicode fonts",
+      "licence": "MIT"
+    },
+    "jspdf-autotable": {
+      "version": "^5.0.9",
+      "purpose": "Tabular layout plugin for jsPDF with automatic page breaking",
+      "licence": "MIT"
+    },
+    "docx": {
+      "version": "^9.15.4",
+      "purpose": "Pure JavaScript Word (.docx) document generator",
+      "licence": "MIT"
+    },
+    "pdfjs-dist": {
+      "version": "^6.5.438",
+      "purpose": "Mozilla PDF text extraction and attachment content parsing",
+      "licence": "Apache-2.0"
+    },
+    "zod": {
+      "version": "^4.6.7",
+      "purpose": "TypeScript-first schema validation for tool parameters and configurations",
+      "licence": "MIT"
+    },
+    "pino": {
+      "version": "^10.4.0",
+      "purpose": "Ultra-fast, structured JSON logger with secret redaction",
+      "licence": "MIT"
+    },
+    "@supabase/supabase-js": {
+      "version": "^2.119.0",
+      "purpose": "Supabase client for conversation history, credits, and pgvector embeddings",
+      "licence": "MIT"
+    },
+    "lucide-react": {
+      "version": "^0.546.0",
+      "purpose": "Modern clean icons for chat panel, attachments, exports, and audio controls",
+      "licence": "ISC"
+    },
+    "clsx": {
+      "version": "^2.1.1",
+      "purpose": "Utility for constructing conditional className strings",
+      "licence": "MIT"
+    },
+    "tailwind-merge": {
+      "version": "^3.7.0",
+      "purpose": "Safely merge Tailwind CSS classes without style conflicts",
+      "licence": "MIT"
+    }
+  }
+}
